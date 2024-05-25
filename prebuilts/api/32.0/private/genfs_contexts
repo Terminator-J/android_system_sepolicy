@@ -75,7 +75,9 @@ genfscon proc /sys/kernel/sched_wakeup_granularity_ns u:object_r:proc_sched:s0
 genfscon proc /sys/kernel/sysrq u:object_r:proc_sysrq:s0
 genfscon proc /sys/kernel/usermodehelper u:object_r:usermodehelper:s0
 genfscon proc /sys/net u:object_r:proc_net:s0
+genfscon proc /sys/vm/dirty_background_bytes u:object_r:proc_dirty:s0
 genfscon proc /sys/vm/dirty_background_ratio u:object_r:proc_dirty:s0
+genfscon proc /sys/vm/dirty_bytes u:object_r:proc_dirty:s0
 genfscon proc /sys/vm/dirty_expire_centisecs u:object_r:proc_dirty:s0
 genfscon proc /sys/vm/extra_free_kbytes u:object_r:proc_extra_free_kbytes:s0
 genfscon proc /sys/vm/max_map_count u:object_r:proc_max_map_count:s0
